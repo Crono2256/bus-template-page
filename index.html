@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllRide</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,500;1,700&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5d0d8cefea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="top">
+    <!-- logo z lewej strony, menu z prawej -->
+    <div class="wrap">
+      <div class="burger"><i class="fas fa-bars"></i></div>
+      <div class="logo">AllRide</div>
+    </div>
+    <!-- nawigacja ułożona poziomo -->
+    <nav class="menu">
+      <ul>
+        <li>
+          <div class="roll"><a>
+          W drogę ! </a><span class="expand-btn"><i class="fas fa-chevron-down"></i></span></div>
+          <!-- lista rozwijająca się po najechaniu na przycisk w drogę -->
+          <ul class="expand">
+            <li><a href="">Kup bilet</a></li>
+            <li><a href="">Przystanki</a></li>
+            <li><a href="">Wyszukaj połączenie</a></li>
+          </ul>
+          <!-- Koniec rozwijanej listy -->
+        </li>
+        <li><a href="">Oferta</a></li>
+        <li><a href="">O nas</a></li>
+        <li><a href="">Kontakt</a></li>
+      </ul>
+    </nav>
+  </section>
+  <header id="banner">
+    <!-- Slajdy ze zdjęciami i tekstem -->
+    <div class="slide-wrap">
+      <div class="slide-bg comfort current">
+        <h1 class="slide-text">Komfort i bezpieczeństwo</h1>
+      </div>
+      <div class="slide-bg tickets">
+        <h1 class="slide-text">Bilety już od 5 zł</h1>
+      </div>
+      <div class="slide-bg stations">
+        <h1 class="slide-text">Ponad 200 przystanków</h1>
+      </div>
+    </div>
+    <!-- Koniec slajdów -->
+    <!-- Przyciski "przymocowane" do bannera (tzn. nie zmieniające się wraz ze slajdami) -->
+    <a class="arrow right" data-direction="right"><i class="fas fa-chevron-circle-right"></i></a>
+    <a class="arrow left" data-direction="left"><i class="fas fa-chevron-circle-left"></i></a>
+    <button class="btn-normal">Kup bilet</button>
+    <div class="dots">
+    </div>
+  </header>
+  <!-- <aside class="ad">reklama</aside> -->
+  <section id="features" class="main">
+    <div class="intro">
+      <div class="intro-wrap">
+        <h2 class="title">Dlaczego my ?</h2>
+        <p>Oto zaledwie kilka, spośród bardzo wielu powodów, dla których warto wybrać naszą firmę:</p>
+      </div>
+    </div>
+    <div class="feature">
+      <h3 class="feature-name">
+        <div class="icon"><i class="fas fa-smile-beam"></i></div><span class="name">Komfort przede wszystkim</span>
+      </h3>
+      <p class="description">Każdy z naszych autobusów jest klimatyzowany oraz posiada wygodne, regulowane siedzenia
+        wyposażone w gniazdko elektroniczne oraz lampkę do czytania. Wszystko po to, aby zapewnić Wam jak najlepsze
+        wrażenia z podróżowania !</p>
+    </div>
+    <div class="feature">
+      <h3 class="feature-name">
+        <div class="icon"><i class="fas fa-money-bill-alt"></i></div><span class="name">Kursy już od 5 zł</span>
+      </h3>
+      <p class="description">Oferujemy atrakcyjne ceny dzięki którym nie będziesz musiał się martwić o stan swojego
+        portfela. Ceny naszych biletów rozpoczynają się już od 5 zł !</p>
+    </div>
+    <div class="feature">
+      <h3 class="feature-name">
+        <div class="icon"><i class="fas fa-bus"></i></div><span class="name">Ponad 200 przystanków w całym kraju</span>
+      </h3>
+      <p class="description">Nie ważne gdzie mieszkasz oraz dokąd chcesz się udać, dzięki rozległej sieci naszych
+        przystanków na pewno znajdziesz odpowiednie połączenie.</p>
+    </div>
+    <div class="feature">
+      <h3 class="feature-name">
+        <div class="icon"><i class="fas fa-table"></i></div>
+        <span class="name">Rozkłady jazdy według Waszych potrzeb</span>
+      </h3>
+      <p class="description">Niezależnie od tego, czy potrzebujesz wyjechać wcześnie rano, czy też wracasz późnym
+        wieczorem, w naszej rozkładówce bez problemu znajdziesz kurs dla siebie. Nasz bus będzie czekać na Ciebie o
+        każdej porze !</p>
+    </div>
+  </section>
+  <section id="rent" class="main">
+    <div class="intro">
+      <h2 class="title">Wynajmij nasz autobus</h2>
+    </div>
+    <!-- <div class="bg"></div> -->
+    <div class="rent-wrap">
+      <div class="bg-cover"></div>
+      <p class="description">
+        Chcesz się zabrać z dużą grupą znajomych, bądź jesteś organizatorem wycieczki ? W takim razie dobrze trafiłeś
+        ! W naszej bogatej ofercie znajdziesz zarówno małe
+        busy, jak i autobusy piętrowe, a nawet kampery !
+      </p>
+      <button class="btn-normal">Nasza oferta</button>
+    </div>
+  </section>
+  <section id="firm" class="split">
+    <div class="data split-left">
+      <h3 class="title">Dane naszej spółki</h3>
+      <ul class="description">
+        <li class="name">AllRide Sp. z o.o.</li>
+        <li class="address">ul. Przykładowa 441, 14-100 Ostróda</li>
+        <li class="regon">REGON: 827736156, NIP: 2218607844</li>
+        <li class="krs">0000025338</li>
+        <li class="account">Konto bankowe: 00 0000 0000 0000 0000 0000 0000</li>
+        <li class="cap">Wartość całkowitego kapitału firmy: 150 000 000 PLN</li>
+      </ul>
+    </div>
+    <div class="contact split-right">
+      <h3 class="title">Skontaktuj się z nami</h3>
+      <div class="contact-wrap">
+        <div class="description">
+          <p>Nasza infolinia: 848 622 088</p>
+          <p>Czynna w godzinach: <span class="hours-week">pn-pt: 8-18</span>
+            <span class="hours-sat">sob: 10-16</span>
+          </p>
+          <p>Napisz do nas:</p>
+        </div>
+        <form action="" id="contact-form">
+          <input type="text" id="name-input" class="contact-input" placeholder="Imię i nazwisko">
+          <input type="text" id="mail-input" class="contact-input" placeholder="Twój adres e-mail">
+          <input type="text" id="phone-input" class="contact-input" placeholder="Telefon">
+          <textarea name="message" id="msg" cols="30" rows="10" placeholder="Twoja wiadomość"></textarea>
+          <button id="contact-submit" class="submit">Wyślij</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p id="credits">
+      <span id="project-name">©Copyright AllRide</span>
+      <span id="author">Realizacja: Dawid Mejka</span>
+    </p>
+  </footer>
+
+  <script src="/scripts/main.js"></script>
+</body>
+
+</html>
